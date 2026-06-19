@@ -1,6 +1,6 @@
 # Olivier Dehareng
 
-I build applied AI systems and ship them to production.
+**Computer Engineer, from prototype to production.**
 
 I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, with a strong pull toward finance and regulated environments, where getting AI to behave well is hardest and matters most.
 
@@ -28,19 +28,19 @@ Built with Rust, wgpu and WGSL.
 
 ## Products I am building (not open source)
 
-The code stays private, but the products are live.
+The code stays private, but the products are live and I keep detailed technical write-ups of each in my [case-studies](https://github.com/DeharengOlivier/case-studies) repo.
 
 **[Argustr](https://argustr.com)**
-A multi-agent AI system for financial markets. The goal is decision support an investor can actually trust, so instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does.
-Built around multi-agent LLM systems.
+A multi-agent AI system for financial markets. Instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/argustr.md)
 
 **[L'Instant Clair](https://linstantclair.com)**
-A French news platform designed to be run end to end by AI. Language models analyze and enrich each story through transparent pipelines, and a human layer adds methodology and editorial judgment. The objective is to rethink the economics of media with AI-augmented, transparent journalism instead of opaque content farms.
-Built with full-stack web and LLM analysis pipelines.
+A French news platform designed to be run end to end by AI. Language models analyze and enrich each story through transparent pipelines, and a human layer adds methodology and editorial judgment. The objective is to rethink the economics of media with AI-augmented, transparent journalism. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/linstant-clair.md)
 
 **[SaviKids](https://savikids.com)**
-An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids, for whom one-size-fits-all material tends to fail.
-Built with LLM generation on a full-stack product.
+An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
+
+**Aurelona**
+My AI consulting and delivery practice. I scope, build, deploy and hand over AI solutions for small companies and a startup, owning both the engineering and the adoption rather than dropping a prototype and leaving. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/aurelona.md)
 
 ## Now
 
