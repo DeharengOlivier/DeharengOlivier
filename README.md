@@ -44,7 +44,7 @@ My AI consulting and delivery practice. I scope, build, deploy and hand over AI 
 
 ## Now
 
-I am a Software Engineer at Innpact SA in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. I also lead SaviKids, the edtech I am co-founding.
+I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal platform, automated reporting, Excel and bash document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md). I also lead SaviKids, the edtech I am co-founding.
 
 ## Reach me
 
