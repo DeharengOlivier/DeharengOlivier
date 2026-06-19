@@ -1,29 +1,53 @@
-# Hi, I'm Olivier Dehareng 👋
+# Olivier Dehareng
 
-**Applied AI Engineer & Technical Founder.** I build LLM systems that reach production (RAG, agents, evaluations) and lead their adoption. Dual-trained as a computer engineer and a business engineer, with an edge in finance and regulated environments. French and English.
+I build applied AI systems and ship them to production.
 
-I ship AI from prototype to production and care about systems that hold up in the real world, with real evaluations, guardrails and a concrete benefit, not just a demo. I also build my own products as a founder.
+I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, with a strong pull toward finance and regulated environments, where getting AI to behave well is hardest and matters most.
 
-## Featured projects
+This page collects what I build, both open source and my own products.
 
-- **[rag-engine](https://github.com/DeharengOlivier/rag-engine)** - A generic Retrieval-Augmented Generation engine built from scratch. Pluggable embedding and LLM providers, an offline mode that runs with no API key, grounding guardrails and an evaluation harness. *Python.*
+## Open source
 
-- **[lol-win-prediction](https://github.com/DeharengOlivier/lol-win-prediction)** - Predicting League of Legends match outcomes from a player's in-game stats. A tuned model per role (around 0.96 ROC-AUC on held-out games), careful data-leakage handling with a grouped split, and SHAP for interpretability. *Python, scikit-learn, XGBoost, SHAP.*
+Public on GitHub. Each project exists to sharpen or prove a specific engineering skill.
 
-- **[real-estate-trading-game](https://github.com/DeharengOlivier/real-estate-trading-game)** - A full-stack real-estate trading game with an economic market simulation, a documented API and a web interface, fully containerized. *FastAPI, MongoDB, Redis, React, Docker.*
+**[rag-engine](https://github.com/DeharengOlivier/rag-engine)**
+A Retrieval-Augmented Generation engine built from scratch. The point I wanted to make is that the hard part of RAG is not retrieval, it is trust. So it ships with grounding guardrails (it refuses when it lacks context and always cites its sources) and an evaluation harness that measures retrieval quality, the two things that decide whether an AI assistant over private knowledge can be relied on. It runs fully offline by default and lets you plug in real embedding and LLM providers when you want them.
+Built with Python and numpy, with optional sentence-transformers and Anthropic or OpenAI providers.
 
-- **[gpu-cloth-simulation](https://github.com/DeharengOlivier/gpu-cloth-simulation)** - A real-time cloth simulation that runs its physics entirely on the GPU. A mass-spring model integrated in parallel in a compute shader, with live rendering. *Rust, wgpu, WGSL.*
+**[lol-win-prediction](https://github.com/DeharengOlivier/lol-win-prediction)**
+A machine-learning project that predicts the outcome of a League of Legends match from a single player's statistics, and explains which factors drive the result. I built it to practice doing ML correctly rather than optimistically. It handles data leakage explicitly, splits by game so opponents never straddle train and test, and reports ROC-AUC and F1 (around 0.96 AUC per role) instead of accuracy alone.
+Built with Python, scikit-learn, XGBoost and SHAP.
 
-## Tech I work with
+**[real-estate-trading-game](https://github.com/DeharengOlivier/real-estate-trading-game)**
+A full-stack real-estate trading game with an economic market simulation, a documented API and a web client. It was my way to design a real NoSQL data model and a small live market end to end, fully containerized so the whole stack starts with one command.
+Built with FastAPI, MongoDB, Redis, React and Docker.
 
-`Python` `TypeScript / React` `Rust` · LLMs (RAG, agents, evaluations, fine-tuning) · `FastAPI` `MongoDB` `Docker` · finance and regulated environments (CSSF / AIFMD / SFDR)
+**[gpu-cloth-simulation](https://github.com/DeharengOlivier/gpu-cloth-simulation)**
+A real-time cloth simulation whose physics runs entirely on the GPU. I built it to get hands-on with parallel programming and low-level graphics, integrating a mass-spring model in a compute shader and rendering it live.
+Built with Rust, wgpu and WGSL.
 
-## Beyond open source
+## Products I am building (not open source)
 
-I also build private and professional systems I cannot open-source, including production AI inside a regulated financial firm and a few early-stage products.
+The code stays private, but the products are live.
+
+**[Argustr](https://argustr.com)**
+A multi-agent AI system for financial markets. The goal is decision support an investor can actually trust, so instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does.
+Built around multi-agent LLM systems.
+
+**[L'Instant Clair](https://linstantclair.com)**
+A French news platform designed to be run end to end by AI. Language models analyze and enrich each story through transparent pipelines, and a human layer adds methodology and editorial judgment. The objective is to rethink the economics of media with AI-augmented, transparent journalism instead of opaque content farms.
+Built with full-stack web and LLM analysis pipelines.
+
+**[SaviKids](https://savikids.com)**
+An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids, for whom one-size-fits-all material tends to fail.
+Built with LLM generation on a full-stack product.
+
+## Now
+
+Day to day I work on applied AI in a regulated financial setting, taking LLM systems from idea to production and leading their adoption.
 
 ## Reach me
 
-- Portfolio at [olivierdehareng.com](https://olivierdehareng.com)
-- LinkedIn at [linkedin.com/in/deharengolivier](https://linkedin.com/in/deharengolivier)
-- Email at deharengolivier@gmail.com
+Portfolio at [olivierdehareng.com](https://olivierdehareng.com)
+LinkedIn at [linkedin.com/in/deharengolivier](https://linkedin.com/in/deharengolivier)
+Email at deharengolivier@gmail.com
