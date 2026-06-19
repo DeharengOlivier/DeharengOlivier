@@ -10,14 +10,14 @@ This page collects what I build, both my own products and open source.
 
 These are live products. The code stays private, but I keep a detailed technical write-up of each in my [case-studies](https://github.com/DeharengOlivier/case-studies) repo (architecture and trade-offs, no proprietary code).
 
+**[SaviKids](https://savikids.com)**
+An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
+
 **[Argustr](https://argustr.com)**
 A multi-agent AI system for financial markets. Instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/argustr.md)
 
 **[L'Instant Clair](https://linstantclair.com)**
 A French news platform designed to be run end to end by AI. Language models analyze and enrich each story through transparent pipelines, and a human layer adds methodology and editorial judgment. The objective is to rethink the economics of media with AI-augmented, transparent journalism. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/linstant-clair.md)
-
-**[SaviKids](https://savikids.com)**
-An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
 
 **Aurelona**
 My AI consulting and delivery practice. I scope, build, deploy and hand over AI solutions for small companies and a startup, owning both the engineering and the adoption rather than dropping a prototype and leaving. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/aurelona.md)
