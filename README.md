@@ -26,6 +26,10 @@ Built with FastAPI, MongoDB, Redis, React and Docker.
 A real-time cloth simulation whose physics runs entirely on the GPU. I built it to get hands-on with parallel programming and low-level graphics, integrating a mass-spring model in a compute shader and rendering it live.
 Built with Rust, wgpu and WGSL.
 
+**[crible-politique](https://github.com/DeharengOlivier/crible-politique)**
+Le Crible Politique, a political self-assessment tool for France and Belgium. You answer statements and it computes your proximity to each party, explained statement by statement, with a deterministic published formula, no AI at runtime, no account and no server storage. I built it to show that for something as sensitive as politics a transparent, reproducible method beats a black box.
+Built with Next.js, React and TypeScript.
+
 ## Products I am building (not open source)
 
 The code stays private, but the products are live and I keep detailed technical write-ups of each in my [case-studies](https://github.com/DeharengOlivier/case-studies) repo.
