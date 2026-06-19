@@ -44,7 +44,7 @@ My AI consulting and delivery practice. I scope, build, deploy and hand over AI 
 
 ## Now
 
-Day to day I work on applied AI in a regulated financial setting, taking LLM systems from idea to production and leading their adoption.
+I am a Software Engineer at Innpact SA in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. I also lead SaviKids, the edtech I am co-founding.
 
 ## Reach me
 
