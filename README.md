@@ -4,14 +4,14 @@
 
 I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, with a strong pull toward finance and regulated environments, where getting AI to behave well is hardest and matters most.
 
-This page collects what I build, both my own products and open source.
+My main venture is **SaviKids**, an edtech I co-founded and lead the engineering for. This page collects what I build, both my own products and open source.
 
 ## Products I build
 
 These are live products. The code stays private, but I keep a detailed technical write-up of each in my [case-studies](https://github.com/DeharengOlivier/case-studies) repo (architecture and trade-offs, no proprietary code).
 
-**[SaviKids](https://savikids.com)**
-An edtech I am co-founding that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
+**[SaviKids](https://savikids.com)** is my main venture, which I co-founded and where I lead the engineering.
+An edtech that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. I built the product end to end, from the AI story-generation pipelines to the mobile app, and I drive its technical and product direction. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
 
 **[Argustr](https://argustr.com)**
 A multi-agent AI system for financial markets. Instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/argustr.md)
@@ -48,7 +48,7 @@ Built with FastAPI, MongoDB, Redis, React and Docker.
 
 ## Now
 
-I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal platform, automated reporting, Excel and bash document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md). I also lead SaviKids, the edtech I am co-founding.
+I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal platform, automated reporting, Excel and bash document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md). Alongside, my main venture is **SaviKids**, the edtech I co-founded and lead the engineering for.
 
 ## Reach me
 
