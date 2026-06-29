@@ -52,7 +52,7 @@ Built with FastAPI, MongoDB, Redis, React and Docker.
 
 ## Now
 
-I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal platform, automated reporting, Excel and bash document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md). Alongside, my main venture is **SaviKids**, the edtech I co-founded and lead the engineering for.
+I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal AI platform, automated reporting, document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md).
 
 ## Reach me
 
