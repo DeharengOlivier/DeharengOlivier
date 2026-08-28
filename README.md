@@ -2,29 +2,13 @@
 
 **Computer Engineer, from prototype to production.**
 
-I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, with a strong pull toward finance and regulated environments, where getting AI to behave well is hardest and matters most.
+I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, in settings where getting a model to behave predictably is the hard part and the part that matters.
 
-My main venture is **SaviKids**, an edtech I co-founded and lead the engineering for. This page collects what I build, both my own products and open source.
-
-## Products I build
-
-These are live products. The code stays private, but I keep a detailed technical write-up of each in my [case-studies](https://github.com/DeharengOlivier/case-studies) repo (architecture and trade-offs, no proprietary code).
-
-**[SaviKids](https://savikids.com)** is my main venture, which I co-founded and where I lead the engineering.
-An edtech that turns lessons into personalised, AI-generated stories for children with dyslexia, ADHD or anxiety, with tutoring and gamification. I built the product end to end, from the AI story-generation pipelines to the mobile app, and I drive its technical and product direction. The goal is to make learning genuinely accessible and engaging for neurodivergent kids. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/savikids.md)
-
-**[Argustr](https://argustr.com)**
-A multi-agent AI system for financial markets. Instead of a black-box buy or sell signal it produces structured, auditable reasoning, with explicit assumptions, conviction levels and a traceable logic path. The bet behind it is that in finance transparency drives adoption more than raw accuracy does. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/argustr.md)
-
-**[L'Instant Clair](https://linstantclair.com)**
-A French news platform designed to be run end to end by AI. Language models analyze and enrich each story through transparent pipelines, and a human layer adds methodology and editorial judgment. The objective is to rethink the economics of media with AI-augmented, transparent journalism. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/linstant-clair.md)
-
-**Aurelona**
-My AI consulting and delivery practice. I scope, build, deploy and hand over AI solutions for small companies and a startup, owning both the engineering and the adoption rather than dropping a prototype and leaving. [Technical write-up.](https://github.com/DeharengOlivier/case-studies/blob/main/aurelona.md)
+This page collects the part of my work that is public.
 
 ## Open source
 
-Public on GitHub, ordered most-substantial first. Each project exists to sharpen or prove a specific engineering skill.
+Ordered most-substantial first. Each project exists to sharpen or prove a specific engineering skill.
 
 **[rag-engine](https://github.com/DeharengOlivier/rag-engine)**
 A Retrieval-Augmented Generation engine built from scratch. The point I wanted to make is that the hard part of RAG is not retrieval, it is trust. So it ships with grounding guardrails (it refuses when it lacks context and always cites its sources), an evaluation harness that measures retrieval quality, and PII anonymization that strips personal data before anything is indexed, the things that decide whether an AI assistant over private knowledge can be relied on in a regulated setting. It runs fully offline by default and lets you plug in real embedding and LLM providers, or Microsoft Presidio, when you want them.
@@ -50,9 +34,9 @@ Built with Next.js, React and TypeScript.
 A full-stack real-estate trading game with an economic market simulation, a documented API and a web client. It was my way to design a real NoSQL data model and a small live market end to end, fully containerized so the whole stack starts with one command.
 Built with FastAPI, MongoDB, Redis, React and Docker.
 
-## Now
+## Beyond this page
 
-I am a **Software Engineer at Innpact SA** in Luxembourg, where I take LLM systems from idea to production and lead their adoption in a regulated financial setting. A high-level, IP-safe write-up of the engineering I do there (internal AI platform, automated reporting, document automation, network architecture) is in my [Innpact case study](https://github.com/DeharengOlivier/case-studies/blob/main/innpact.md).
+Most of what I build is closed source: products I run end to end, and delivery work covered by confidentiality. The engineering is the same across all of it, taking an LLM system from a first prototype to something people depend on daily, with the retrieval, evaluation and guardrail work that decides whether it can be trusted at all. Happy to walk through any of it in a conversation.
 
 ## Reach me
 
