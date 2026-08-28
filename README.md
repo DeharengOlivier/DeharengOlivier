@@ -1,10 +1,8 @@
 # Olivier Dehareng
 
-**Computer Engineer, from prototype to production.**
+Computer engineer specialised in AI, business engineer specialised in finance. I work on LLM systems (retrieval, agents, evaluation, guardrails) and the full-stack engineering around them, mostly in finance and other regulated settings.
 
-I am a dual-trained computer engineer specialised in AI and business engineer specialised in finance. That combination means I can take a vague, high-value problem, design the system behind it, and own it from prototype to a tool people actually rely on. I work mostly with LLMs (retrieval, agents, evaluations, guardrails) and full-stack engineering, in settings where getting a model to behave predictably is the hard part and the part that matters.
-
-This page collects the part of my work that is public.
+This page lists my public work.
 
 ## Open source
 
