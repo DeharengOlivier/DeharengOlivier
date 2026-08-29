@@ -1,6 +1,6 @@
 # Olivier Dehareng
 
-Computer engineer specialised in AI, business engineer specialised in finance. I work on LLM systems (retrieval, agents, evaluation, guardrails) and the full-stack engineering around them, mostly in finance and other regulated settings.
+Engineer, focused on computer science and finance.
 
 This page lists my public work.
 
