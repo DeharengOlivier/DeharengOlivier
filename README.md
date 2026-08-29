@@ -2,8 +2,6 @@
 
 Engineer, focused on computer science and finance.
 
-This page lists my public work.
-
 ## Open source
 
 Ordered most-substantial first. Each project exists to sharpen or prove a specific engineering skill.
