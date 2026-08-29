@@ -1,6 +1,6 @@
 # Olivier Dehareng
 
-Engineer, focused on computer science and finance.
+Engineer, focused on computer science and finance. The vast majority of my work is not open source.
 
 ## Open source
 
