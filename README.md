@@ -10,20 +10,20 @@ Aurelona is the company behind everything below. It has three branches.
 
 **Aurelona Accounting**, at [accounting.aurelona.com](https://accounting.aurelona.com). Accounting software for Belgian non-profits (ASBL), built around the obligations these organisations actually have rather than a generic ledger. Free tier, a paid tier at 19 EUR, quotes above that.
 
-**Aurelona Development**. The products I build and run myself, listed next.
+**Aurelona Development**, at [aurelona.tech](https://aurelona.tech). The mobile application studio: the products I build and run myself, listed next.
 
 ## Products
 
-**Argustr**, at [argustr.com](https://argustr.com)
+**Argustr**, at [argustr.com](https://argustr.com), presented [here](https://aurelona.tech/argustr)
 Decision support for financial markets. A team of specialised AI agents analyses a listed asset (equities, indices, crypto, currencies) the way an analysis desk would: data collection, adversarial debate, argued decision. The part that matters most comes after. Every call is verified later against real market prices and the system publishes its own track record, wins and losses alike. Multi-agent engine on LangGraph with a deterministic verification layer, FastAPI backend, Next.js front end.
 
-**SaviKids**, at [savikids.com](https://savikids.com)
+**SaviKids**, at [savikids.com](https://savikids.com), presented [here](https://aurelona.tech/savikids)
 A child photographs a page of their exercise book and the app turns it into a personalised, audio-first lesson adapted to how that child learns (dyslexia, ADHD, dyscalculia, anxiety and more). The mobile app is deliberately thin; the backend reads the photo, writes the lesson, checks it is correct and safe, and voices it. French, Bulgarian and English. Built by the Belgian non-profit ASBL SAVIKIDS EDUCATION, which I co-founded in 2026. Flutter app, contract-first OpenAPI backend, Next.js site.
 
 **L'instant Clair**, at [linstantclair.com](https://linstantclair.com)
 An editorial media augmented by AI: a publishing loop that runs on a schedule with language models, with a public site, a back office and a business edition. Express and Prisma backend, SolidStart site, Next.js admin, shared Zod contracts, Playwright end-to-end tests.
 
-**Duet**
+**Duet**, at [aurelona.tech/duet](https://aurelona.tech/duet)
 One envelope a day, for two people. Each answers on their own side without seeing anything, and when both have answered everything opens at once. The central guarantee, that you cannot see the other's answer before giving yours, is not a check on top of the code: it is a type. The pending state has no field where the other answer could live. Flutter and Dart.
 
 **L'Intrus**
@@ -32,20 +32,26 @@ A local social-deduction game for 3 to 15 players on a single phone. No account,
 **Le Crible Politique**, at [crible.eu](https://crible.eu), source [here](https://github.com/DeharengOlivier/crible-politique)
 A political self-assessment tool for France and Belgium. You answer statements and it computes your proximity to each party, explained statement by statement, with a deterministic published formula, no AI at runtime, no account and no server storage. For something as sensitive as politics, a transparent and reproducible method beats a black box. Next.js, React and TypeScript.
 
-**Ember**, at [embersocial.app](https://www.embersocial.app)
+**Ember**, at [embersocial.app](https://www.embersocial.app), presented [here](https://aurelona.tech/ember)
 A social network for emotional sharing. Every post answers a question: a shared question of the day, a thematic catalogue, questions proposed by members, and questions composed for you from your own answers. Memories are kept in time capsules. Fastify backend, TanStack web, Flutter mobile, all derived from one OpenAPI contract.
 
-**BlindBox**
+**BlindBox**, at [aurelona.tech/blindbox](https://aurelona.tech/blindbox)
 Personality-first dating. One person a week, chosen by a compatibility questionnaire. Their photo arrives 95 percent blurred and unblurs only when both people have written six more messages. A monologue reveals nothing. Same technical foundation as Ember.
 
-**Runf**
+**Runf**, at [aurelona.tech/runf](https://aurelona.tech/runf)
 Meeting people through running. Dart backend with PostGIS, Flutter mobile, all derived from an OpenAPI contract.
 
 **Amiable**
 A shared-expense register for separated parents. Each expense is recorded with its date, amount, receipt and the split rule that applies, and the app produces a statement meant to hold up between the two. React Native mobile.
 
-**Mobile games**
-Simple games with one mechanic and a short loop, built on Godot 4 or Flutter: Alcyon (vertical ascent), Chromatic Rush (3D endless runner, six worlds, offline), Foxfire (an infinite sliding game from misty dawn to bioluminescent night), Eclat (on-rails 3D with procedural glass breaking) and a two-player chess clock that needs no account.
+**Chromatic Rush**, at [aurelona.tech/chromatic-rush](https://aurelona.tech/chromatic-rush)
+A three-lane endless runner. One finger is enough: swipe to change lane, jump, slide. Six worlds follow one another inside a single run, each with its own sky, scenery and music, with no loading screen. Grazing an obstacle scores more than avoiding it widely, which makes risk-taking the real subject of the game. No advertising, no purchase, no account, no connection: the six skins unlock by playing and nothing leaves the phone. Godot 4.
+
+**Chess clock**, at [aurelona.tech/chess-clock](https://aurelona.tech/chess-clock)
+A chess clock, and only a chess clock. Two players, one phone between them, each reading their own time the right way up from their side. Eleven bullet, blitz and rapid time controls, with Fischer or Bronstein increment. The remaining time is not counted down frame by frame but computed from a monotonic clock, so a notification, an incoming call or a locked screen gives back no seconds, where many free apps freeze their count the moment they go to the background. Flutter.
+
+**Other games in progress**
+Simple games with one mechanic and a short loop, on Godot 4: Alcyon (vertical ascent), Foxfire (an infinite sliding game from misty dawn to bioluminescent night) and Eclat (on-rails 3D with procedural glass breaking).
 
 ## Open source
 
