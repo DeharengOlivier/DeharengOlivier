@@ -29,7 +29,7 @@ One envelope a day, for two people. Each answers on their own side without seein
 **L'Intrus**
 A local social-deduction game for 3 to 15 players on a single phone. No account, no connection, no data leaving the device. Each player gets a secret word, one or two get a different one, and the Shadow gets none. Five game modes, 4,156 original word pairs in French and English, characters generated in 3D from a first name, in-app purchases on Apple and Google, remote content signed with Ed25519. Playable end to end, validated on iOS and Android.
 
-**Le Crible Politique**, at [crible.deploy-env.net](https://crible.deploy-env.net), source [here](https://github.com/DeharengOlivier/crible-politique)
+**Le Crible Politique**, at [crible.eu](https://crible.eu), source [here](https://github.com/DeharengOlivier/crible-politique)
 A political self-assessment tool for France and Belgium. You answer statements and it computes your proximity to each party, explained statement by statement, with a deterministic published formula, no AI at runtime, no account and no server storage. For something as sensitive as politics, a transparent and reproducible method beats a black box. Next.js, React and TypeScript.
 
 **Ember**, at [embersocial.app](https://www.embersocial.app)
