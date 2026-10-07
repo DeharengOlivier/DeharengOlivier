@@ -8,7 +8,7 @@ My public work includes **10 engineering projects**, from a RAG engine that runs
 
 I'm interested in **software engineering roles in applied AI, evaluation, developer infrastructure and systems**.
 
-[Portfolio](https://olivierdehareng.com) · [All repositories](https://github.com/DeharengOlivier?tab=repositories) · [Email](mailto:deharengolivier@gmail.com) · [LinkedIn](https://linkedin.com/in/deharengolivier)
+[Portfolio](https://olivierdehareng.com) · [All repositories](https://github.com/DeharengOlivier?tab=repositories) · [Email](mailto:deharengolivier@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dehareng-olivier)
 
 ## Selected open-source work
 
