@@ -1,102 +1,95 @@
 # Olivier Dehareng
 
-Engineer, focused on computer science and finance. I run a small company, [Aurelona](https://aurelona.com), under which I build and operate my own products. Most of that work is closed source; the open-source part is at the bottom of this page.
+**Software engineer · Applied AI, systems & developer tools**
 
-## Aurelona
+I build software across the stack: retrieval and evaluation pipelines, GPU compute shaders, network protocol visualisations, developer tools, web applications and mobile products. I run [Aurelona](https://aurelona.com), where I develop my own products alongside client work.
 
-Aurelona is the company behind everything below. It has three branches.
+My public work includes **10 engineering projects**, from a RAG engine that runs without an API key to a Rust physics solver running on the GPU. I care about what happens beyond the demo: how a system is evaluated, what it does when inputs are wrong, and whether someone else can inspect and reproduce its behaviour.
 
-**Aurelona Digital**, at [aurelona.com](https://aurelona.com). Services for businesses: websites, applications, quotes and delivery.
+I'm interested in **software engineering roles in applied AI, evaluation, developer infrastructure and systems**.
 
-**Aurelona Accounting**, at [accounting.aurelona.com](https://accounting.aurelona.com). Accounting software for Belgian non-profits (ASBL), built around the obligations these organisations actually have rather than a generic ledger. Free tier, a paid tier at 19 EUR, quotes above that.
+[Portfolio](https://olivierdehareng.com) · [All repositories](https://github.com/DeharengOlivier?tab=repositories) · [Email](mailto:deharengolivier@gmail.com) · [LinkedIn](https://linkedin.com/in/deharengolivier)
 
-**Aurelona Development**, at [aurelona.tech](https://aurelona.tech). The mobile application studio: the products I build and run myself, listed next.
+## Selected open-source work
 
-## Products
+### [rag-engine](https://github.com/DeharengOlivier/rag-engine) — Retrieval, grounding & evaluation
 
-**Argustr**, at [argustr.com](https://argustr.com), presented [here](https://aurelona.tech/argustr)
-Decision support for financial markets. A team of specialised AI agents analyses a listed asset (equities, indices, crypto, currencies) the way an analysis desk would: data collection, adversarial debate, argued decision. The part that matters most comes after. Every call is verified later against real market prices and the system publishes its own track record, wins and losses alike. Multi-agent engine on LangGraph with a deterministic verification layer, FastAPI backend, Next.js front end.
+An offline-first RAG pipeline with pluggable embeddings and model providers, optional PII redaction before indexing, source citations and a retrieval-score threshold for refusing unsupported queries. The evaluation harness measures retrieval recall and keyword coverage; the default pipeline needs no network or API key.
 
-**SaviKids**, at [savikids.com](https://savikids.com), presented [here](https://aurelona.tech/savikids)
-A child photographs a page of their exercise book and the app turns it into a personalised, audio-first lesson adapted to how that child learns (dyslexia, ADHD, dyscalculia, anxiety and more). The mobile app is deliberately thin; the backend reads the photo, writes the lesson, checks it is correct and safe, and voices it. French, Bulgarian and English. Built by the Belgian non-profit ASBL SAVIKIDS EDUCATION, which I co-founded in 2026. Flutter app, contract-first OpenAPI backend, Next.js site.
+**Python · NumPy · optional OpenAI / Anthropic providers**
 
-**L'instant Clair**, at [linstantclair.com](https://linstantclair.com)
-An editorial media augmented by AI: a publishing loop that runs on a schedule with language models, with a public site, a back office and a business edition. Express and Prisma backend, SolidStart site, Next.js admin, shared Zod contracts, Playwright end-to-end tests.
+[Architecture and design](https://github.com/DeharengOlivier/rag-engine#why-this-design) · [Evaluation](https://github.com/DeharengOlivier/rag-engine/tree/main/evals)
 
-**Duet**, at [aurelona.tech/duet](https://aurelona.tech/duet)
-One envelope a day, for two people. Each answers on their own side without seeing anything, and when both have answered everything opens at once. The central guarantee, that you cannot see the other's answer before giving yours, is not a check on top of the code: it is a type. The pending state has no field where the other answer could live. Flutter and Dart.
+### [down-the-stack](https://github.com/DeharengOlivier/down-the-stack) — Network protocols, byte by byte
 
-**L'Intrus**
-A local social-deduction game for 3 to 15 players on a single phone. No account, no connection, no data leaving the device. Each player gets a secret word, one or two get a different one, and the Shadow gets none. Five game modes, 4,156 original word pairs in French and English, characters generated in 3D from a first name, in-app purchases on Apple and Google, remote content signed with Ed25519. Playable end to end, validated on iOS and Android.
+An interactive 3D journey through a real captured HTTPS request. Protocol encoders are checked against the published capture, and TLS 1.3 records are decrypted in the browser. Reconstructed Wi-Fi framing and the modelled physical layer are explicitly distinguished from captured data.
 
-**Le Crible Politique**, at [crible.eu](https://crible.eu), source [here](https://github.com/DeharengOlivier/crible-politique)
-A political self-assessment tool for France and Belgium. You answer statements and it computes your proximity to each party, explained statement by statement, with a deterministic published formula, no AI at runtime, no account and no server storage. For something as sensitive as politics, a transparent and reproducible method beats a black box. Next.js, React and TypeScript.
+**TypeScript · Three.js · TLS · TCP/IP · signal processing**
 
-**Ember**, at [embersocial.app](https://www.embersocial.app), presented [here](https://aurelona.tech/ember)
-A social network for emotional sharing. Every post answers a question: a shared question of the day, a thematic catalogue, questions proposed by members, and questions composed for you from your own answers. Memories are kept in time capsules. Fastify backend, TanStack web, Flutter mobile, all derived from one OpenAPI contract.
+[What is measured and what is reconstructed](https://github.com/DeharengOlivier/down-the-stack#every-byte-is-real) · [Tests](https://github.com/DeharengOlivier/down-the-stack/tree/main/tests)
 
-**BlindBox**, at [aurelona.tech/blindbox](https://aurelona.tech/blindbox)
-Personality-first dating. One person a week, chosen by a compatibility questionnaire. Their photo arrives 95 percent blurred and unblurs only when both people have written six more messages. A monologue reveals nothing. Same technical foundation as Ember.
+### [gpu-cloth-simulation](https://github.com/DeharengOlivier/gpu-cloth-simulation) — Parallel physics on the GPU
 
-**Runf**, at [aurelona.tech/runf](https://aurelona.tech/runf)
-Meeting people through running. Dart backend with PostGIS, Flutter mobile, all derived from an OpenAPI contract.
+A mass-spring cloth simulation with WGSL compute shaders, ping-pong state buffers and a separate render pipeline. Headless GPU tests check physical invariants; a benchmark documents throughput by grid size. Built as a parallel-programming learning project at ECAM.
 
-**Amiable**
-A shared-expense register for separated parents. Each expense is recorded with its date, amount, receipt and the split rule that applies, and the app produces a statement meant to hold up between the two. React Native mobile.
+**Rust · wgpu · WGSL · GPU compute**
 
-**Chromatic Rush**, at [aurelona.tech/chromatic-rush](https://aurelona.tech/chromatic-rush)
-A three-lane endless runner. One finger is enough: swipe to change lane, jump, slide. Six worlds follow one another inside a single run, each with its own sky, scenery and music, with no loading screen. Grazing an obstacle scores more than avoiding it widely, which makes risk-taking the real subject of the game. No advertising, no purchase, no account, no connection: the six skins unlock by playing and nothing leaves the phone. Godot 4.
+[Architecture](https://github.com/DeharengOlivier/gpu-cloth-simulation#architecture) · [Performance measurements](https://github.com/DeharengOlivier/gpu-cloth-simulation#performance)
 
-**Chess clock**, at [aurelona.tech/chess-clock](https://aurelona.tech/chess-clock)
-A chess clock, and only a chess clock. Two players, one phone between them, each reading their own time the right way up from their side. Eleven bullet, blitz and rapid time controls, with Fischer or Bronstein increment. The remaining time is not counted down frame by frame but computed from a monotonic clock, so a notification, an incoming call or a locked screen gives back no seconds, where many free apps freeze their count the moment they go to the background. Flutter.
+### [probative](https://github.com/DeharengOlivier/probative) — Reproducible technical evidence
 
-**Other games in progress**
-Simple games with one mechanic and a short loop, on Godot 4: Alcyon (vertical ascent), Foxfire (an infinite sliding game from misty dawn to bioluminescent night) and Eclat (on-rails 3D with procedural glass breaking).
+An offline CLI that turns an npm-based Node.js repository into a Cyber Resilience Act technical evidence pack, including a dependency SBOM and source-linked findings. Evidence is tied to a commit and content digests. It runs no project scripts, has no runtime dependencies, and prepares evidence rather than claiming legal compliance.
 
-## Open source
+**Node.js · supply-chain evidence · deterministic analysis**
 
-Each project exists to sharpen or prove a specific engineering skill.
+[What it checks](https://github.com/DeharengOlivier/probative#what-it-does)
 
-**[down-the-stack](https://github.com/DeharengOlivier/down-the-stack)**
-One real web request, followed from the keystroke to the radio wave. An interactive 3D simulation of a captured HTTPS page load, decoded byte by byte, down to the 802.11 waveform and back up the other side. Every byte on screen comes from a real packet capture that ships with the repository, the protocol encoders are tested to reproduce it byte for byte, and the TLS records are genuinely decrypted in the browser rather than faked. English and French. This is the first module of a larger project: hyper-visual, rigorous simulations to let anyone understand computing by seeing it run.
-Built with TypeScript and Three.js.
+### [cubby](https://github.com/DeharengOlivier/cubby) — File automation with an undo path
 
-**[probative](https://github.com/DeharengOlivier/probative)**
-Turns a repository into a Cyber Resilience Act (EU 2024/2847) evidence pack. Deterministic, offline, zero dependencies. It prepares the technical evidence and cites the Official Journal text article by article, and it deliberately states no legal conclusion about compliance and no overall score. It also ships as a Claude Code skill, so an agent can build the evidence pack for the repository it is working in.
-Built with Node.js, standard library only.
+A CLI and background agent that classifies files by extension, filename and document content. Moves are journaled and reversible; existing files are never overwritten. Includes previews, explanations, duplicate handling and installation diagnostics for macOS and Linux.
 
-**[rag-engine](https://github.com/DeharengOlivier/rag-engine)**
-A Retrieval-Augmented Generation engine built from scratch. The point I wanted to make is that the hard part of RAG is not retrieval, it is trust. So it ships with grounding guardrails (it refuses when it lacks context and always cites its sources), an evaluation harness that measures retrieval quality, and PII anonymisation that strips personal data before anything is indexed. It runs fully offline by default and lets you plug in real embedding and LLM providers, or Microsoft Presidio, when you want them.
-Built with Python and numpy, with optional sentence-transformers, Anthropic or OpenAI providers, and Presidio.
+**Python · CLI / background services · filesystem safety**
 
-**[cubby](https://github.com/DeharengOlivier/cubby)**
-A command-line tool that keeps a Downloads folder tidy on its own, filing each new file through a three-stage cascade: it reads the filename first, peeks inside the content when the name is uninformative (a UUID-named PDF still lands in Invoices), and falls back to the file type last. The domain is pure, the classification engine has zero IO and is driven by an injected text-extraction port, with a background agent on launchd or systemd. Fully tested, including a fuzz pass that proves the engine is total over arbitrary input.
-Built with Python (standard library only at runtime), packaged as a pip-installable CLI.
+[Safety guarantees](https://github.com/DeharengOlivier/cubby#safety-guarantees) · [Command reference](https://github.com/DeharengOlivier/cubby#command-reference)
 
-**[herdr-cockpit](https://github.com/DeharengOlivier/herdr-cockpit)**
-A WezTerm configuration that turns the terminal into a dedicated cockpit for AI coding agents, driven by Herdr. Self-contained, MIT licensed.
+## More public engineering projects
 
-**[lol-win-prediction](https://github.com/DeharengOlivier/lol-win-prediction)**
-Predicts the outcome of a League of Legends match from a single player's statistics, and explains which factors drive the result. It handles data leakage explicitly, splits by game so opponents never straddle train and test, and reports ROC-AUC and F1 (around 0.96 AUC per role) instead of accuracy alone.
-Built with Python, scikit-learn, XGBoost and SHAP.
+| Project | Engineering focus | Stack |
+| --- | --- | --- |
+| [Le Crible Politique](https://github.com/DeharengOlivier/crible-politique) | Explainable, deterministic political self-assessment for France and Belgium; published scoring, uncertainty intervals and browser-side computation. [Website](https://crible.eu). | TypeScript, Next.js, React |
+| [lol-win-prediction](https://github.com/DeharengOlivier/lol-win-prediction) | Per-role XGBoost classification from **end-of-game** statistics; game-grouped splits, training-only feature selection, leakage checks and SHAP explanations. | Python, scikit-learn, XGBoost |
+| [herdr-cockpit](https://github.com/DeharengOlivier/herdr-cockpit) | A WezTerm setup for AI coding agents, with project spaces, keyboard integration and a terminal dashboard for token usage and cost. | Lua, Python, shell |
+| [simulateur-salaire-portage-france](https://github.com/DeharengOlivier/simulateur-salaire-portage-france) | Offline salary-scenario CLI and interactive terminal UI; decimal arithmetic, constrained target solving and payslip reconciliation. Estimates are separated from verified payslip totals. | Python, Decimal, curses |
+| [real-estate-trading-game](https://github.com/DeharengOlivier/real-estate-trading-game) | An academic full-stack market simulation with server-side authorisation, a documented API and a containerised database/cache/web stack. | FastAPI, MongoDB, Redis, React, Docker |
 
-**[gpu-cloth-simulation](https://github.com/DeharengOlivier/gpu-cloth-simulation)**
-A real-time cloth simulation whose physics runs entirely on the GPU: a mass-spring model integrated in a compute shader and rendered live.
-Built with Rust, wgpu and WGSL.
+## Products beyond the public repositories
 
-**[real-estate-trading-game](https://github.com/DeharengOlivier/real-estate-trading-game)**
-A full-stack real-estate trading game with an economic market simulation, a documented API and a web client, fully containerised so the whole stack starts with one command.
-Built with FastAPI, MongoDB, Redis, React and Docker.
+Open source is one part of my work. I also develop web and mobile products through Aurelona and co-founded **ASBL SAVIKIDS EDUCATION**. These projects are at different stages of development; their public pages describe them in more detail.
 
-**[case-studies](https://github.com/DeharengOlivier/case-studies)**
-Short write-ups of work I do not open source: adaptive learning, decision support scored against reality, automated editorial, consulting practice and engineering under confidentiality. No client names, no architecture, no code.
+| Product | What I work on |
+| --- | --- |
+| [Argustr](https://apps.aurelona.com/argustr) | Multi-agent financial analysis, with decisions evaluated later against market prices. LangGraph, FastAPI and Next.js. |
+| [SaviKids](https://apps.aurelona.com/savikids) | Turning photographed schoolwork into personalised audio lessons, with content checks and a thin Flutter client. |
+| [Aurelona Accounting](https://gestion.aurelona.com) | Accounting software built around the needs of Belgian non-profits. |
+| [L'instant Clair](https://linstantclair.com) | An AI-assisted editorial workflow spanning scheduled publishing, a public site and an administration interface. |
+| [Duet](https://apps.aurelona.com/duet) | A two-person daily question app whose pending state does not expose the other person's answer. Flutter and Dart. |
+| [Ember](https://apps.aurelona.com/ember), [BlindBox](https://apps.aurelona.com/blindbox) & [Runf](https://apps.aurelona.com/runf) | Social and mobile applications, with shared API contracts across backend and client implementations. |
+| L'Intrus & Amiable | An offline social-deduction game and a shared-expense register for separated parents. |
+| [Chromatic Rush](https://apps.aurelona.com/chromatic-rush) & [Chess clock](https://apps.aurelona.com/chess-clock) | A Godot runner and a Flutter chess clock using monotonic time to handle interruptions. |
 
-## Beyond this page
+I also work on smaller game prototypes: **Alcyon, Foxfire and Eclat**.
 
-Alongside my own products I do delivery work covered by confidentiality, mostly taking LLM systems from a first prototype to something people depend on daily, with the retrieval, evaluation and guardrail work that decides whether they can be trusted at all. Happy to walk through any of it in a conversation.
+[Product studio](https://apps.aurelona.com) · [High-level case studies](https://github.com/DeharengOlivier/case-studies)
 
-## Reach me
+## How I approach engineering
 
-Portfolio at [olivierdehareng.com](https://olivierdehareng.com)
-LinkedIn at [linkedin.com/in/deharengolivier](https://linkedin.com/in/deharengolivier)
-Email at deharengolivier@gmail.com
+- **Make claims inspectable.** Publish the scoring formula, the captured bytes, the evaluation method or the benchmark setup alongside the implementation.
+- **Test the boundary that matters.** Examples include held-out labels in ML, GPU state transitions, filesystem moves and server-side authorisation.
+- **Design for failure and recovery.** Refusal paths, explicit errors, reversible operations and reproducible outputs matter as much as the happy path.
+- **Own the whole path.** Work from data and backend contracts through the interface, packaging, deployment and diagnostics.
+
+Alongside these projects, I work on client systems under confidentiality, particularly LLM applications, retrieval, evaluation and guardrails. The [case studies](https://github.com/DeharengOlivier/case-studies) describe the problems without exposing client code or internal details.
+
+## Let's talk
+
+For software engineering opportunities or a technical conversation about any of these projects: **[deharengolivier@gmail.com](mailto:deharengolivier@gmail.com)**.
