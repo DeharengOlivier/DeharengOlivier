@@ -68,7 +68,7 @@ Open source is one part of my work. I also develop web and mobile products throu
 
 | Product | What I work on |
 | --- | --- |
-| [Argustr](https://apps.aurelona.com/argustr) | Multi-agent financial analysis, with decisions evaluated later against market prices. LangGraph, FastAPI and Next.js. |
+| [Argustr](https://argustr.com) | Multi-agent financial analysis, with decisions evaluated later against market prices. LangGraph, FastAPI and Next.js. |
 | [SaviKids](https://apps.aurelona.com/savikids) | Turning photographed schoolwork into personalised audio lessons, with content checks and a thin Flutter client. |
 | [Aurelona Accounting](https://gestion.aurelona.com) | Accounting software built around the needs of Belgian non-profits. |
 | [L'instant Clair](https://linstantclair.com) | An AI-assisted editorial workflow spanning scheduled publishing, a public site and an administration interface. |
